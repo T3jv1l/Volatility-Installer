@@ -99,7 +99,7 @@ sleep 2
 cd volatility-2.3.1/
 mv vol.py ../
 cd ../
-sudo rm -rf distorm volatility-2.3.1.tar.gz  yara-python-1.4a pycrypto-2.6.1 yara-python-1.4a.tar.gz pycrypto-2.6.1.tar.gz yara-1.4.tar.gz yara-1.4 volatility-2.3.1
+sudo rm -rf distorm volatility-2.3.1.tar.gz yara-python-1.4a pycrypto-2.6.1 yara-python-1.4a.tar.gz pycrypto-2.6.1.tar.gz yara-1.4.tar.gz yara-1.4 volatility-2.3.1
 echo -e "\e[01;92m[!]\e[00m Ready for use!"
 
 
