@@ -69,7 +69,7 @@ sudo python setup.py build install
 sleep 1
 echo -e "\e[31m[+] We need change permission for move /usr/local/lib >> /etc/ld.so.conf\e[0m"
 sleep 0.5
-cho -e "\e[01;32m[+]\e[00m Set Permission change! "
+echo -e "\e[01;32m[+]\e[00m Set Permission change! "
 sleep 0.5
 echo -e "\e[01;32m[+]\e[00m Verified Permission!"
 sleep 0.5
