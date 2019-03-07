@@ -32,7 +32,8 @@ https://github.com/volatilityfoundation/volatility/wiki
 ## Usage : /bin/bash volatility_installer.sh 
 
 ## About Volatility Installer tool !
-To install this framework for Linux you need to install next dependencies and package. For Linux you may have to install a few other packages/libraries as prerequisites for the following recommended packages. Exemple sudo apt-get install pcregrep libpcre++-dev python-dev -y
+To install this framework for Linux you need to install next dependencies and package. For Linux you may have to install a few other packages/libraries as prerequisites for the following recommended packages. Exemple sudo apt-get install pcregrep libpcre++-dev python-dev -y.
+
 Recommended Packages:
 ```
        Distorm3 - Powerful Disassembler Library For x86/AMD64.
