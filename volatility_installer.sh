@@ -69,14 +69,14 @@ sudo python setup.py build install
 sleep 1
 echo -e "\e[31m[+] We need change permission for move /usr/local/lib >> /etc/ld.so.conf\e[0m"
 sleep 0.5
-sudo chmod 777 /etc/ld.so.conf
-sudo echo “/usr/local/lib” >> /etc/ld.so.conf
-echo -e "\e[01;32m[+]\e[00m Set Permission change! "
+cho -e "\e[01;32m[+]\e[00m Set Permission change! "
 sleep 0.5
 echo -e "\e[01;32m[+]\e[00m Verified Permission!"
 sleep 0.5
 ls -la /etc/ld.so.conf | grep "rwx"
 sleep 2
+sudo chmod 777 /etc/ld.so.conf
+sudo echo “/usr/local/lib” >> /etc/ld.so.conf
 sudo ldconfig
 cd ../
 echo -e "\e[01;32m[+]\e[00m Installation succesful !"
