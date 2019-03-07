@@ -38,4 +38,8 @@ Recommended Packages:
        PyCrypto - The Python Cryptography Toolkit. 
        
 ```
+## Usage
+```
+/bin/bash volatility_installer.sh 
+```
 
