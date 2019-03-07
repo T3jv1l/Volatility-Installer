@@ -1,12 +1,9 @@
-#!/usr/bin/env bash   	            #                                                                         
-#                       			#
-#									#
-#									#
-#                                   #                                                                                                                                                                                               #
-#Author: T3jv1l                     #                                                                                                                                                                                                                   #
-#Date:   07-03-2019   				#
-#Contant for bug :t3jv1l@gmail.com>>#                                                                                                                                                                                                                                 #
-#####################################
+#!/usr/bin/env bash   
+
+#Author: T3jv1l                                                                                                                                                                                                                                      #
+#Date:   07-03-2019   				
+#Contant for bug :t3jv1l@gmail.com>>                                                                                                                                                                                                                                 #
+
 
 
 #---Installing dependencies  From Volatility Framework
