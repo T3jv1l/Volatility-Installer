@@ -2,7 +2,7 @@
 
 #Author: T3jv1l                                                                                                                                                                                                                                      #
 #Date:   07-03-2019   				
-#Contant for bug :t3jv1l@gmail.com>>                                                                                                                                                                                                                                 #
+#Contact for bug :t3jv1l@gmail.com>>                                                                                                                                                                                                                                 #
 
 
 
