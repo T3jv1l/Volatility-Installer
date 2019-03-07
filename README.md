@@ -28,13 +28,12 @@
 
 The Volatility Framework is a completely open source collection of tools, implemented in Python for extraction of digital artifacts from volatile memory (RAM).Volatility is a memory forensics framework, to analyse RAM memory dumps for windows,Linux, and MAC.For more detail check the source :
 https://github.com/volatilityfoundation/volatility/wiki
-```
+
 ## About Volatility Installer tool !
 To install this framework for Linux you need to install next dependencies and package. For Linux you may have to install a few other packages/libraries as prerequisites for the following recommended packages. Exemple sudo apt-get install pcregrep libpcre++-dev python-dev -y
 Recommended Packages:
-	Distorm3 - Powerful Disassembler Library For x86/AMD64.
-	Yara - A malware identification and classification tool.
-	PyCrypto - The Python Cryptography Toolkit. 
+------> Distorm3 - Powerful Disassembler Library For x86/AMD64.
+------>	Yara - A malware identification and classification tool.
+------>	PyCrypto - The Python Cryptography Toolkit. 
 
-```
 
