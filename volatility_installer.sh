@@ -34,6 +34,8 @@ sleep 0.5
 #---Install Distrom3 disassemble library for x86/AMDx64
 echo -e "\e[01;35m[>]\e[00m Install Distrom3 disassemble library for x86/AMDx64! "
 sleep 2
+sudo apt-get install python-setuptools -y
+sudo apt-get install python3-setuptools -y 
 #sudo apt-get install git ---- if you don't have installed git clone
 git clone https://github.com/gdabah/distorm.git
 cd distorm/
@@ -71,11 +73,11 @@ echo -e "\e[31m[+] We need change permission for move /usr/local/lib >> /etc/ld.
 sleep 0.5
 echo -e "\e[01;32m[+]\e[00m Set Permission change! "
 sleep 0.5
+sudo chmod 777 /etc/ld.so.conf
 echo -e "\e[01;32m[+]\e[00m Verified Permission!"
 sleep 0.5
 ls -la /etc/ld.so.conf | grep "rwx"
 sleep 2
-sudo chmod 777 /etc/ld.so.conf
 sudo echo “/usr/local/lib” >> /etc/ld.so.conf
 sudo ldconfig
 cd ../
